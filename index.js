@@ -7,13 +7,13 @@ function whisper(string){
 }
 
 function logShout(string){
-  string.toUpperCase();
-  console.log(string);
+  let newString = string.toUpperCase();
+  console.log(newString);
 }
 
 function logWhisper(string){
-  string.toLowerCase();
-  console.log(string);
+  let newString = string.toLowerCase();
+  console.log(newString);
 }
 function sayHiToGrandma(string){
   let newString = string.slice(0);
